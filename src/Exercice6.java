@@ -4,8 +4,10 @@ public class Exercice6 {
 
 
 
-    public static void jeu (int valeur1){
+    public static void jeu (){
         Scanner input = new Scanner(System.in);
+        System.out.println("deviner un numero entre 0 et 100");
+        int valeur1 = input.nextInt();
         boolean a = true;
         int valeur = (int) (Math.random () * 100);
         System.out.println(valeur); // uniquement pour le test
@@ -27,9 +29,6 @@ public class Exercice6 {
         }
     }
     public static void main (String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.println("deviner un numero entre 0 et 100");
-        int valeur1 = input.nextInt();
-        jeu (valeur1);
+        jeu ();
     }
 }
