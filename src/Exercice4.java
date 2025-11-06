@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class Exercice4 {
     public static int factorielle (int valeur1){
+        if (valeur1 == 0){
+            return 1;
+        }
         int result = 1;
         for (int i = valeur1 ; i > 0 ; i--){
             result *= i;
