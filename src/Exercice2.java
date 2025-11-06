@@ -11,7 +11,6 @@ public class Exercice2 {
         for (int i = 0 ; i < number ; i++){ //boucle definnisant le nombre iteration
             suite = number1 + number2;
             System.out.print(suite + " ");
-
             number1 = number2;
             number2 = suite;
         }
