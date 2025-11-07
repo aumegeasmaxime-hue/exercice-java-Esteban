@@ -16,6 +16,7 @@ public class Exercice7 {
                 System.out.println(result);
                 break;
             }
+            System.out.println("Entrer un nombre a additionner");
             valeur1 = input.nextDouble();
         }
     }
