@@ -10,7 +10,7 @@ public class Exercice9 {
                 System.out.println("Peut-être premier");
                 break;
             }
-            if (valeur1 % 2 == 0){
+            else if (valeur1 % 2 == 0){
                 System.out.println("Pas premier");
                 break;
             }
