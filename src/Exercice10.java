@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Exercice10 {
     public static void menu (){
-
+        boolean a = true;
         int valeur1;
         do {
             Scanner input = new Scanner(System.in);
@@ -23,7 +23,7 @@ public class Exercice10 {
                break;
             }
         }
-        while ((valeur1 == 0) || (valeur1 > 3));
+        while (a);
     }
     public static void main (String[] args) {
         menu ();
