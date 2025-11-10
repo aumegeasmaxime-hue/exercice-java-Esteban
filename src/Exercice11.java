@@ -15,18 +15,20 @@ public class Exercice11 {
             System.out.print("1-Celsius vers Fahrenheit  ");
             System.out.print("2-Fahrenheit vers Celsius  ");
             System.out.println("3-Quitter");
-
             choix = input.nextInt();
-            valeur1 = input.nextInt();
 
             if (choix == 1){
+                System.out.print("entrer la valeur:  ");
+                valeur1 = input.nextInt();
                 result += ((valeur1 * 9/5) + 32);
-                System.out.println(result);
+                System.out.println("temperature en celsius: " + result);
                 a = false;
             }
             else if (choix == 2){
+                System.out.print("entrer la valeur:  ");
+                valeur1 = input.nextInt();
                 result += ((valeur1 - 32) * 5/9);
-                System.out.println(result);
+                System.out.println("temperature en Fahrenheit: " + result);
                 a = false;
             }
             else if (choix == 3){
