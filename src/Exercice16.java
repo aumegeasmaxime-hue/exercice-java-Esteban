@@ -1,4 +1,7 @@
+import java.util.Scanner;
+
 public class Exercice16 {
+
     public static void moyenNote () {
 
         int [] tabNote = {12,10,18,20,15};
@@ -15,7 +18,11 @@ public class Exercice16 {
         }
         System.out.println("La note moyenne est: " + moyenne);
     }
+
     public static void main (String[] args) {
         moyenNote();
+
     }
 }
+
+
