@@ -1,4 +1,4 @@
-public class Exercice27 {
+public class Exercice27 { // a refaire
     public static void comparaisonTableau () {
         int[] tab1 = {2,4,6,8,10};
         int[] tab2 = {2,4,6,8,10};

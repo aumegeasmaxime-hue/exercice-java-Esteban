@@ -1,6 +1,6 @@
 public class Exercice23 {
     public static void carreTableau () {
-        int[] tab = {2, 4, 5, 8, 15};
+        int[] tab = {1,2,3,4,5,6,7,8,9,10};
         int count = 0;
         int carre = 0;
         for (int z : tab){
